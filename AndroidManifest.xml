@@ -75,6 +75,17 @@
             </intent-filter>
         </activity>
 
+        <!-- Spare Parts -->
+
+        <activity android:name="SpareParts" 
+                android:label="@string/spare_settings"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.SpareParts" />
+		<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <!-- Top-level settings -->
 

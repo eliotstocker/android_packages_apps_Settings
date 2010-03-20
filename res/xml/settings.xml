@@ -163,4 +163,15 @@
                 android:targetClass="com.android.settings.DeviceInfoSettings" />
         </PreferenceScreen>
 
+        <!-- Spare Parts -->
+ 
+        <PreferenceScreen
+            android:title="@string/spare_settings"
+            android:summary="@string/spare_settings_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.SpareParts" />
+        </PreferenceScreen>
+
 </PreferenceScreen>
